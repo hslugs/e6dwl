@@ -1,0 +1,24 @@
+{
+  "name": "e621 organizational downloader",
+  "version": "0.1",
+  "description": "Quick-download current post into artist folder",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action" :
+  {
+    "default_icon" : "icon-19.png",
+    "default_title" : "Download into artist folder"
+  },
+  "permissions" : [
+    "declarativeContent",
+    "downloads",
+    "activeTab"
+  ],
+  "icons" : {
+    "48" : "icon-48.png",
+    "128" : "icon-128.png"
+  },
+  "manifest_version": 2
+}
